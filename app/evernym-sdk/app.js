@@ -1,19 +1,22 @@
 // @flow
 
 // application name
-export const APP_NAME = 'AppName'
+export const APP_NAME = 'INFICRED'
 
 // app logo
-export const APP_LOGO = null
+export const APP_LOGO = require('/Users/mike/Desktop/INFICRED/inficredMobile/docs/images/inficred_logo.png')
 
 // app icon
 export const APP_ICON = null
 
 // name of a company built app
-export const COMPANY_NAME = null
+export const COMPANY_NAME = 'INFICRED'
 
 // logo of a company built application
-export const COMPANY_LOGO = null
+export const COMPANY_LOGO = require('/Users/mike/Desktop/INFICRED/inficredMobile/docs/images/inficred_logo.png')
+// export const COMPANY_LOGO = null
+
+
 
 // default user avatar placeholder
 export const DEFAULT_USER_AVATAR = null

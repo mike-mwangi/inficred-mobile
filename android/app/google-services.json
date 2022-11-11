@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738300280966",
+    "project_id": "inficred-b1a58",
+    "storage_bucket": "inficred-b1a58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738300280966:android:d6479f4984315306499107",
+        "android_client_info": {
+          "package_name": "com.inficredmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738300280966-76cvlck6s890iuuvp8euabscjn89n2cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0xYNVN9lgfaWauCgg8z9R_5hLwmCrGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738300280966-76cvlck6s890iuuvp8euabscjn89n2cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
