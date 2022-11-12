@@ -5,7 +5,7 @@
  * */
 
 // text which will be used for the header.
-export const HEADLINE = null
+export const HEADLINE = 'INFICRED'
 
 // component to be displayed in cases of no recent notifications.
 export const HomeViewEmptyState = null
