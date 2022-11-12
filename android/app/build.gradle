@@ -183,6 +183,8 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
@@ -233,11 +235,6 @@ android {
     defaultConfig {
         missingDimensionStrategy 'react-native-camera', 'general'
     }
-}
-
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
 }
 
 apply plugin: "com.google.gms.google-services"
