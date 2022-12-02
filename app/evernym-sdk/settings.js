@@ -5,22 +5,15 @@
  * */
 
 // text which will be used for the header.
-export const HEADLINE = null
+export const HEADLINE = 'Settings'
 
-// options to be shown on Settings screen.
-// Format:
-// [
-//   {
-//     name: string, - (mandatory) - identifier
-//     title: string, - (optional for predefined (there is default) / mandatory for custom) - title
-//     subtitle: string, - (optional) - description
-//     avatar: string, - (optional) - icon to show on the left
-//     rightIcon: Icon, - (optional) - icon to show on the right
-//     onPress: Function, - (optional) - handler on touch
-//   }
-// ]
-// Predefined: Biometrics, Passcode, Feedback, About, Logs
-export const SETTINGS_OPTIONS = null
+// the set of options (and their labels) to be shown.
+export const SETTINGS_OPTIONS = [
+    { name: 'Biometrics' },
+    { name: 'Passcode' },
+    { name: 'Feedback' },
+    { name: 'About' },
+]
 
 // flag indicating whether you want to show camera button.
 export const SHOW_CAMERA_BUTTON = true

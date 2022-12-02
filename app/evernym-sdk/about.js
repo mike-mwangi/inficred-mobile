@@ -1,8 +1,16 @@
 // @flow
-// This module allows configuring the about app screen.
 
 // information to show on app
-export const INFO = null
+export const INFO = {
+    appLogo: true,
+    appName: false,
+    appVersion: true,
+    appEnvironment: false,
+    builtBy: true,
+    poweredBy: false,
+    termsAndConditions: false,
+    privacyPolicy: true,
+}
 
 // some additional information which will be show on the screen
 export const AdditionalInfo = () => null

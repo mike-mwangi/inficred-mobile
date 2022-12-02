@@ -23,7 +23,7 @@
     android:usesCleartextTraffic="true"
     android:allowBackup="true"
     android:theme="@style/AppTheme"
-    android:icon="@mipmap/ic_launcher">
+    android:icon="@mipmap/inficred_logo">
 
 <!--        Firebase configuration-->
         <service android:name="io.invertase.firebase.messaging.RNFirebaseInstanceIdService">
