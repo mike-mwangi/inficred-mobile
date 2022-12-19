@@ -2,14 +2,14 @@
 
 // information to show on app
 export const INFO = {
-    appLogo: true,
-    appName: false,
-    appVersion: true,
-    appEnvironment: false,
-    builtBy: true,
-    poweredBy: false,
-    termsAndConditions: false,
-    privacyPolicy: true,
+  appLogo: true,
+  appName: false,
+  appVersion: true,
+  appEnvironment: true,
+  builtBy: true,
+  poweredBy: false,
+  termsAndConditions: true,
+  privacyPolicy: true,
 }
 
 // some additional information which will be show on the screen
