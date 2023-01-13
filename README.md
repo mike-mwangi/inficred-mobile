@@ -1,1 +1,2 @@
 # inficred-mobile
+Inficred is a digital identity wallet that resides in the user’s mobile phone of which they can store their personal documents and use them to verify their identity when needed governed by a self-sovereign identity approach.
